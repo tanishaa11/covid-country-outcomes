@@ -1,0 +1,58 @@
+{
+  "rows_raw": 429435,
+  "rows_clean": 401502,
+  "countries_total": 243,
+  "countries_in_sample": 156,
+  "countries_in_model": 130,
+  "data_start": "2020-01-01",
+  "data_end": "2024-08-14",
+  "negative_daily_values_fixed": 0,
+  "spearman_with_deaths_per_million": {
+    "median_age": 0.801,
+    "log_gdp_per_capita": 0.677,
+    "hospital_beds_per_thousand": 0.618,
+    "diabetes_prevalence": 0.228,
+    "peak_fully_vaccinated_pct": 0.387,
+    "mean_stringency": 0.154
+  },
+  "r_squared": 0.654,
+  "adj_r_squared": 0.637,
+  "coefficients": {
+    "median_age": {
+      "coef": 0.443,
+      "p_value": 0.0
+    },
+    "log_gdp_per_capita": {
+      "coef": 0.238,
+      "p_value": 0.0043
+    },
+    "hospital_beds_per_thousand": {
+      "coef": -0.049,
+      "p_value": 0.3886
+    },
+    "diabetes_prevalence": {
+      "coef": -0.03,
+      "p_value": 0.5144
+    },
+    "peak_fully_vaccinated_pct": {
+      "coef": -0.086,
+      "p_value": 0.1086
+    },
+    "mean_stringency": {
+      "coef": 0.161,
+      "p_value": 0.0002
+    }
+  },
+  "median_deaths_per_million_by_continent": {
+    "South America": 2811.2,
+    "Europe": 2795.5,
+    "North America": 1277.2,
+    "Oceania": 826.2,
+    "Asia": 527.2,
+    "Africa": 77.1
+  },
+  "peak_cases_month": "2022-01-01",
+  "peak_cases_month_value": 94694055.0,
+  "peak_deaths_month": "2021-01-01",
+  "peak_deaths_month_value": 484000.0
+}
